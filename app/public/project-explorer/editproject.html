@@ -11,27 +11,36 @@
          <a href="createproject.html">Submit</a>   
     </nav>
     <main>
+    <section name="Project details">
     <h3>Project 1</h3>
     <ul>
         <li>Created by: June Doe</li>
         <li>Date Created: 00\00\0000</li>
         <li>Last Updated: 01\01\0001</li>
     </ul>
-    </br> 
+    </br>
+    </section>
+    <section name="Edit form">
     <h2>Edit Project</h2>
     <form name="editProject">
-            <div>Project Name: <input type="text" name="name" /></div>
+            <div><label>Project Name:</label> 
+                <input type="text" name="name" /></div>
             </br>
-            <div>Project Abstract:<textarea type="text" name="abstract"></textarea></div>
+            <div><label>Project Abstract:</label>
+                <textarea type="text" name="abstract"></textarea></div>
             </br>
-            <div>Authors: <input type="text" name="authors" /></div>
+            <div><label>Authors:</label> 
+                <input type="text" name="authors" /></div>
             </br>
-            <div>Tag(s): <input type="text" name="tags" /></div>
+            <div><label>Tag(s):</label> 
+                <input type="text" name="tags" /></div>
             </br>
-            <div>Upload File:</div>
+            <div><label>Upload File:</label>
+            </div>
             <div><input type="file" name="projectFile" /></div>
             </br>    
-            <input type="submit" /> 
+                <input type="submit" /> 
         </form>
+    </section>
     </main>
 </html>

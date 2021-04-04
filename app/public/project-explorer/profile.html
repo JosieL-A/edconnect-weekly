@@ -11,7 +11,7 @@
          <a href="createproject.html">Submit</a>   
     </nav>
     <main>
-    <section>
+    <section name="Profile Summary">
         <h3>John Doe</h3>
     </br>
         john.doe@gmail.com
@@ -21,24 +21,30 @@
             <li>Graduation Year: 2019</li>
         </ul>
     </section>
-    <section>
+    <section name="Update Profile">
         <h2>Update Profile</h2>
         <form name="updateProfile">
-            <div>First Name: <input type="text" name="firstName" /></div>
+            <div> <label>First Name:</label>
+                <input type="text" name="firstName" /></div>
             </br>
-            <div>Last Name: <input type="text" name="lastName" /></div>
+            <div><label>Last Name:</label> 
+                <input type="text" name="lastName" /></div>
             </br>
-            <div>Email Address: <input type="email" name="email" /></div>
+            <div><label>Email Address:</label>
+                <input type="email" name="email" /></div>
             </br>
-            <div>Matric Number <input type="text" name="matricNumber" /></div>
+            <div><label>Matric Number:</label> 
+                <input type="text" name="matricNumber" /></div>
             </br>
-            <div>Program:   <select value="text" name="program"></div>
+            <div><label>Program:</label>  
+                <select value="text" name="program"></div>
                                     <option value="computer_science">Computer Science</option>
                                     <option value="computer_information_systems">Computer Information Systems</option>
                                     <option value="computer_technology">Computer Technology</option>
-                            </select>
+                </select>
             </br>
-            <div>Graduation Year:   <select value="text" name="graduationYear"></div>
+            <div><label>Graduation Year:</label>  
+                <select value="number" name="graduationYear"></div>
                                     <option value="2013">2013</option>
                                     <option value="2014">2014</option>
                                     <option value="2015">2015</option>
@@ -47,21 +53,24 @@
                                     <option value="2018">2018</option>
                                     <option value="2019">2019</option>
                                     <option value="2020">2020</option>
-                                    </select>
+                </select>
             </br>
             <input type="submit" /> 
         </form>
     </section>
-    <section>
+    <section name="Update Password">
         <h2>Change Password</h2>
         <form name="changePassword">
-            <div>Current Password: <input type="password" name="currentPassword"></div>
+            <div><label>Current Password:</label> 
+                <input type="password" name="currentPassword"></div>
             </br>
-            <div>New Password: <input type="password" name="newPassword"/></div>
+            <div><label>New Password:</label> 
+                <input type="password" name="newPassword"/></div>
             </br>
-            <div>Confirm Password: <input type="password" name="confirmPassword"/></div>
+            <div><label>Confirm Password:</label> 
+                <input type="password" name="confirmPassword"/></div>
             </br>
-            <input type="submit" />
+                <input type="submit"/>
         </form>
     </section>
     </main>
