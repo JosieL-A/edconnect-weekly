@@ -1,0 +1,117 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </header>
+    <nav class="navbar navbar-dark bg-primary">
+        <a class ="navbar-brand" href="index.html">Project Explorer</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <form class="form-inline my-2 my-lg-0">
+            <li class="nav-item">
+            <input name="searchForm" class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Submit</button>
+            </li>
+        </form>        
+        </ul>
+        <a class ="navbar-brand d-flex justify-content-end" href="register.html">Sign up</a>
+        <a class ="navbar-brand d-flex justify-content-end" href="login.html">Login</a>
+    </nav>
+    <main>
+    <div class="container">
+        <div class = "form-row">
+            <div class="col">
+                <h2>Ade Chuks</h2>
+            </div>
+            <div class="col text-muted">
+                <h3>ade@edconnect.ng</h3>
+            </div>
+        </div>
+         
+        <div class="card-header form-row">
+            <div class="col"> Program </br> 
+                Computer Science </div>
+            <div class="col"> Matric </br>  
+                00/0000 </div>
+            <div class="col"> Graduation Year</br> 
+                 2019 </div>
+        </div> 
+    </div>
+    <div class="container-fluid">
+        <h2>Update Profile</h2>
+        <form class="mx-auto w-75">
+        <div class="form-row">
+            <div class="col"> 
+             <label for="firstName">First name</label>
+             <input type="text" class="form-control" id="firstName" placeholder="First name">
+            </div>
+            <div class="col">
+             <label for="lastName">Last name</label> 
+             <input type="text" class="form-control" id="lastName" placeholder="Last name">
+             </div>
+        </div> 
+            </br>
+            <div class="form-row"> 
+                <div class="col">
+                    <label>Email Address</label> 
+                <input type="email"  class="form-control" id="email" placeholder="Your Email address">
+                </div>
+                <div class="col">
+                    <label>Program</label>       
+                    <select value="text" name="program" class="form-control">
+                            <option selected>Choose...</option>
+                            <option value="computer_science">Computer Science</option>
+                            <option value="computer_information_systems">Computer Information Systems</option>
+                            <option value="computer_technology">Computer Technology</option>
+                    </select>
+                </div>
+            </div> 
+            </br>
+            <div class="form-row">
+            <div class="col">
+                <label>Matriculation number</label> 
+                <input type="text" class="form-control" id="matricNumber" placeholder="e.g 16/2020">
+            </div>
+            <div class="col"> 
+            <label>Graduation Year</label>
+                <select value="number" name="graduationYear" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                </select>
+            </div>
+        </div>
+            </br>
+            <button class= "btn btn-primary" type="submit">Update Profile</button>
+        </form>
+    </div>
+    <div class="container-fluid">
+        <h2>Change Password</h2>
+        <form name="changePassword" class="mx-auto w-75">
+            <div class="form-row">
+                <div class="col">
+                    <label>Current Password:</label> 
+                <input type="password" name="currentPassword" class="form-control">
+                </div>
+                <div class="col">
+                    <label>New Password:</label> 
+                <input type="password" name="newPassword" class="form-control">
+                </div>
+                <div class="col">
+                    <label>Confirm Password:</label> 
+                <input type="password" name="confirmPassword" class="form-control">
+                </div>
+            </div>
+            </br>
+            <button class= "btn btn-primary" type="submit">Change Password</button>
+        </form>
+    </div>
+    </main>
+    <div class="card-footer text-right text-muted">
+        <p> Project Explorer © 2020. <b>Edconnect<b></emp></p>
+    </div>
+</html>
