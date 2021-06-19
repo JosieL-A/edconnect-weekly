@@ -8,7 +8,7 @@
         <form class="form-inline my-2 my-lg-0">
             <li class="nav-item">
             <input name="searchForm" class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
+            <button class="btn btn-outline-light form-control" type="button">Search</button>
             </li>
         </form>        
         </ul>
@@ -40,11 +40,11 @@
         <form class="mx-auto w-75">
         <div class="form-row">
             <div class="col"> 
-             <label for="firstName">First name</label>
+             <label for="firstName" class="form-label">First name</label>
              <input type="text" class="form-control" id="firstName" placeholder="First name">
             </div>
             <div class="col">
-             <label for="lastName">Last name</label> 
+             <label for="lastName" class="form-label">Last name</label> 
              <input type="text" class="form-control" id="lastName" placeholder="Last name">
              </div>
         </div> 
@@ -55,7 +55,7 @@
                 <input type="email"  class="form-control" id="email" placeholder="Your Email address">
                 </div>
                 <div class="col">
-                    <label>Program</label>       
+                    <label class="form-label">Program</label>       
                     <select value="text" name="program" class="form-control">
                             <option selected>Choose...</option>
                             <option value="computer_science">Computer Science</option>
@@ -67,7 +67,7 @@
             </br>
             <div class="form-row">
             <div class="col">
-                <label>Matriculation number</label> 
+                <label class="form-label">Matriculation number</label> 
                 <input type="text" class="form-control" id="matricNumber" placeholder="e.g 16/2020">
             </div>
             <div class="col"> 
@@ -92,17 +92,17 @@
     <div class="container-fluid">
         <h2>Change Password</h2>
         <form name="changePassword" class="mx-auto w-75">
-            <div class="form-row">
+            <div class="form-row form-group">
                 <div class="col">
-                    <label>Current Password:</label> 
+                    <label class="form-label">Current Password:</label> 
                 <input type="password" name="currentPassword" class="form-control">
                 </div>
                 <div class="col">
-                    <label>New Password:</label> 
+                    <label class="form-label">New Password:</label> 
                 <input type="password" name="newPassword" class="form-control">
                 </div>
                 <div class="col">
-                    <label>Confirm Password:</label> 
+                    <label class="form-label">Confirm Password:</label> 
                 <input type="password" name="confirmPassword" class="form-control">
                 </div>
             </div>

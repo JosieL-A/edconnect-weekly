@@ -8,7 +8,7 @@
         <form class="form-inline my-2 my-lg-0">
             <li class="nav-item">
             <input name="searchForm" class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
+            <button class="btn btn-outline-light form-control" type="button">Search</button>
             </li>
         </form>        
         </ul>
@@ -31,7 +31,9 @@
                 00\00\0000 </div>
             <div class="col"> Last Updated</br> 
                 01\01\0001 </div>
-            <div class="col"><button class= "d-flex justify-content-end btn btn-primary" type="submit">View Project</button></div>
+                <div class="col d-flex justify-content-end">
+                    <a role="button" class="btn btn-primary" href="viewproject.html">View Project</a>
+                  </div>
         </div> 
     </div>
 </section>
@@ -47,12 +49,14 @@
                 <input class="form-control" type="text" name="name" placeholder="Project 1">
             </br>
             <div class="form-label">Project abstract</div>
-                <textarea class="form-control" type="text" name="abstract" placeholder="Project 1 is a very interesting project"></textarea>
+                <textarea class="form-control" type="text" name="abstract" placeholder="Project 1 is a very interesting project">
+
+                </textarea>
             </br>
-            <div class="form-label">Author(s) </div> 
+            <label class="form-label">Author(s) </label> 
                 <input class="form-control" type="text" name="authors" placeholder="Ade Chris">
             </br>
-            <div class="form-label">Tag(s)</div> 
+            <label class="form-label">Tag(s)</label> 
                 <input class="form-control" type="text" name="tags" placeholder="#web">
             </br>
             <button class= "d-flex justify-content-left btn btn-primary" type="submit">Save</button>

@@ -8,7 +8,7 @@
         <form class="form-inline my-2 my-lg-0">
             <li class="nav-item">
             <input name="searchForm" class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
+            <button class="btn btn-outline-light form-control" type="button">Search</button>
             </li>
         </form>        
         </ul>
@@ -18,31 +18,31 @@
     <main>
         <form class="mx-auto w-75">
         <h1>Sign up</h1>
-        <div class="form-row">
+        <div class="form-group form-row">
                <div class="col"> 
-                <label for="firstName">First name</label>
+                <label for="firstName" class="form-label">First name</label>
                 <input type="text" class="form-control" id="firstName" placeholder="First name">
                </div>
                <div class="col">
-                <label for="lastName">Last name</label> 
+                <label for="lastName" class="form-label">Last name</label> 
                 <input type="text" class="form-control" id="lastName" placeholder="Last name">
                 </div>
         </div> 
         <br> 
-        <div class="form-row"> 
+        <div class="form-row form-group"> 
                 <div class="col">
-                    <label>Email Address</label> 
+                    <label class="form-label">Email Address</label> 
                 <input type="email"  class="form-control" id="email" placeholder="Your Email address">
                 </div>
                 <div class="col">
-                    <label>Password</label> 
+                    <label class="form-label">Password</label> 
                 <input type="password"  class="form-control" id="password" placeholder="Your Password">
                 </div>
         </div> 
         </br> 
-        <div class="form-row">
+        <div class="form-row form-group">
             <div class="col">
-                <label>Program</label>       
+                <label class="form-label">Program</label>       
                 <select value="text" name="program" class="form-control">
                         <option selected>Choose...</option>
                         <option value="computer_science">Computer Science</option>
@@ -51,11 +51,11 @@
                 </select>
             </div>
             <div class="col">
-                <label>Matriculation number</label> 
+                <label class="form-label">Matriculation number</label> 
                 <input type="text" class="form-control" id="matricNumber" placeholder="e.g 16/2020">
             </div>
             <div class="col"> 
-            <label>Graduation Year</label>
+            <label class="form-label">Graduation Year</label>
                 <select value="number" name="graduationYear" class="form-control">
                                     <option selected>Choose...</option>
                                     <option value="2013">2013</option>
