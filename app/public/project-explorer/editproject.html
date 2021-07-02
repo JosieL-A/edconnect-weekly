@@ -16,74 +16,90 @@
         <a class ="navbar-brand d-flex justify-content-end" href="login.html">Login</a>
     </nav>
     <main>
-    <section name="Project details">
-    <div class="container">
-        <div class = "form-row">
+        <h1>Project 1</h1>
+        <div class="row">
             <div class="col">
-                <h2>Project 1</h2>
+              <p>Created by<br>
+              Ade Chris</p>
             </div>
+            <div class="col">
+                <p>Date Created<br>
+                2020-08-30</p>
+            </div>
+            <div class="col">
+                <p>Last Updated<br>
+                    2020-08-30</p>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <a role="button" class="btn btn-primary" href="viewproject.html">View Project</a>
+              </div>
         </div>
-         
-        <div class="card-header form-row">
-            <div class="col">Created by:</br> 
-                June Doe </div>
-            <div class="col"> Date Created </br>  
-                00\00\0000 </div>
-            <div class="col"> Last Updated</br> 
-                01\01\0001 </div>
-                <div class="col d-flex justify-content-end">
-                    <a role="button" class="btn btn-primary" href="viewproject.html">View Project</a>
-                  </div>
-        </div> 
-    </div>
-</section>
-</br>
-    <section name="Edit form">
-        <div class="container">
-    <form name="editProject">
-        <div class = "form-row">
-        <div class="col">
-            <h2>Edit Project</h2>
-            <div class= "form-group">
-            <div class="form-label">Project name</div> 
-                <input class="form-control" type="text" name="name" placeholder="Project 1">
-            </br>
-            <div class="form-label">Project abstract</div>
-                <textarea class="form-control" type="text" name="abstract" placeholder="Project 1 is a very interesting project">
 
-                </textarea>
-            </br>
-            <label class="form-label">Author(s) </label> 
-                <input class="form-control" type="text" name="authors" placeholder="Ade Chris">
-            </br>
-            <label class="form-label">Tag(s)</label> 
-                <input class="form-control" type="text" name="tags" placeholder="#web">
-            </br>
-            <button class= "d-flex justify-content-left btn btn-primary" type="button">Save</button>
-        </div>
-        </div>
-        <div class="col">
-            <h2>Manage Project files</h2>
-            <form name="manageProjectfiles">
-                <div class="form-row form-group">
-                <div class="col-auto my-2"><input type="text" name="name" placeholder ="Click to open the browser" class= "form-control">
+        <form>
+            <div class="row">
+              <div class="col">
+                <p>Edit Project</p>
+              </div>
+
+              <div class="col">
+                <p>Manage Project files</p>
+              </div>
+            </div>
+              
+            <div class="form-row form-group">
+                <div class="col">
+                    <label class="form-label">Project name</label>
+                    <input type="text" name="name" class="form-control" placeholder="Project 1">
                 </div>
-                <div class="col-auto my-1"><button class= "btn btn-secondary d-flex justify-content-end" type="submit">Browse</button>
-                </div>
-                </div>
-                </br>
-                <div class="card" style="width: 18rem;">
-                   <h5 class="card-header">Project files</h5>
-                    <div class="card-body">
-                      <h6 class="card-subtitle mb-2 text-muted justify-content-around">No file uploaded yet</h6>
+
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Click to open file browser">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Browse</div>
+                      </div>
                     </div>
-                  </div>
-            </form>
-        </div>
-        </div>
+                    
+                </div>
+            </div>
+
+            <div class="form-row form-group">
+                <div class="col">
+                    <label class="form-label">Project abstract</label>
+                    <textarea class="form-control" name="abstract" placeholder="Project 1 is a very interesting project">
+
+                    </textarea>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                          Project files
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text">No file uploaded yet</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </form> 
+
+        <form>
+            <div class="form-group">
+              <label class="form-label">Author(s)</label>
+              <input type="text" class="form-control" name="authors" placeholder="Ade Chris">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Tag(s)</label>
+              <input type="text" class="form-control" name="tags" placeholder="#web">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-primary form-control">save</button>
+              </div>
         </form>
-        </div>
-    </section>
+
     </main>
 </br>
 <div class="card-footer text-right text-muted">
